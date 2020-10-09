@@ -43,7 +43,7 @@ Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assig
 
 
 
-## Review - Counterfactual Analysis
+## Review of Counterfactual Analysis
 
 This course combines concepts from CPP 523 (Regression Analysis) and CPP 524 (Research Design) by demonstrating ways in which counterfactual reasoning can be built into regression models in order to overcome the selection and omitted variable bias problems that make it near impossible to use regular regression models to estimate program impact. 
 
