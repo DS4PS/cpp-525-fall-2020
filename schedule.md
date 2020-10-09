@@ -3,9 +3,19 @@ layout: default
 title: Schedule
 
 canvas: 
-  assignment_url: 'https://canvas.asu.edu/courses/57030/assignments'
+  assignment_url: 'https://canvas.asu.edu/courses/67635/assignments'
+  
+labs:
+  lab-01:  'Saturday, August 29th' 
+  lab-02:  'Saturday, September 5th'
+  lab-03:  'Saturday, September 12th'
+  lab-04:  'Saturday, September 19th'
+  lab-05:  'Saturday, September 26th'
+  lab-06:  'Saturday, October 3rd'
+  lab-07:  'Saturday, October 3rd' 
   
 ---
+
 
 <!--- 
 Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
@@ -17,17 +27,37 @@ Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assig
 <br><br>
 <br><br>
 
+**COURSE CONTENT:**
+
+-----------------------
+
+* TOC
+{:toc}
+
+-----------------------
+
+<br>
+<br>
+
+
+
+
+
 
 ## Week 1 - Interrupted Time Series 
 
-* [LECTURE](https://ds4ps.org/pe4ps-textbook/docs/p-020-time-series.html)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/time-series-lab.html)
 
-**DUE: THURS July 9th**
+<hr>
 
-<a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-020-time-series.html">LECTURE</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/time-series-lab.html">LAB</a>
 
-<br> 
+**Due {{page.labs.lab-01}}**
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+ 
+<hr>
 
 **Resources:**
 
@@ -35,9 +65,8 @@ Bernal, J. L., Cummins, S., & Gasparrini, A. (2017). Interrupted time series reg
 
 Chapter on Interrrupted Time Series [[PDF](https://github.com/DS4PS/cpp-525-spr-2020/raw/master/pubs/cook-campbell-shadish-interrupted-time-series.pdf)]:  From Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). *Experimental and quasi-experimental designs for generalized causal inference.* Boston: Houghton Mifflin.
 
+<br>
 
-<br>
-<br>
 ![](https://ds4ps.org/pe4ps-textbook/docs/FIGURE/TimeSeries/Picture3.4.png){:width="50%"}
 
 ```r
@@ -60,25 +89,30 @@ Y = b0 + (b1)(T) + (b2)(D) + (b3)(P) + e
 
 
 <br>
-
-----
-
 <br>
+<hr>
+<br>
+<br>
+
 
 
 
 
 ## Week 2 - Difference-in-Difference Models 
 
-* [LECTURE](https://ds4ps.org/pe4ps-textbook/docs/p-030-diff-in-diff.html)
-* [overview video](https://asu.zoom.us/rec/play/tMIrd7yvqDo3TNfD4gSDV_V5W425e_6s2yBNrqBcxUixASFRY1GmN7VDNuqKJy2LLzjKb6H4yI5HWMZw?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/diff-in-diff-lab.html)
+<hr>
 
-**Due THURS July 16th**
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-030-diff-in-diff.html">LECTURE</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/diff-in-diff-lab.html">LAB</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/tMIrd7yvqDo3TNfD4gSDV_V5W425e_6s2yBNrqBcxUixASFRY1GmN7VDNuqKJy2LLzjKb6H4yI5HWMZw?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
 
-<a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+**Due {{page.labs.lab-02}}**
 
-<br>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+
+<hr>
 
 **Review:** 
 
@@ -92,11 +126,14 @@ Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. 
 
 Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing difference in difference studies: best practices for public health policy research. Annual review of public health, 39. [[pdf](https://www.annualreviews.org/doi/pdf/10.1146/annurev-publhealth-040617-013507)] 
 
-<br>
 
-----
 
 <br>
+<br>
+<hr>
+<br>
+<br>
+
 
 
 
@@ -104,23 +141,29 @@ Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing difference in differ
 
 ## Week 3 - Panel Data with Fixed Effects 
 
-* [LECTURE NOTES](https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-23-fixed-effects.pdf)
-* [LECTURE CHAPTER](https://ds4ps.org/pe4ps-textbook/docs/p-040-fixed-effects.html)
-* [overview video](https://asu.zoom.us/rec/play/vZQrcbj9qTo3T9aSuQSDC6dxW9S7Kais0SVP-qUKykm9B3QGMFahYeMVZLENnE0QqLfC7HHfx_JInrRR?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/fixed-effects-lab.html)
+<hr>
 
-**Due THURS July 23** 
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-040-fixed-effects.html">LECTURE</a>
+
+[LECTURE NOTES](https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-23-fixed-effects.pdf) 
+
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/fixed-effects-lab.html">LAB</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/vZQrcbj9qTo3T9aSuQSDC6dxW9S7Kais0SVP-qUKykm9B3QGMFahYeMVZLENnE0QqLfC7HHfx_JInrRR?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
+
+
+**Due {{page.labs.lab-03}}**
 
 <a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
+<hr>
+
 **Reference:**
 
-[useful notes on interpretting output](https://www.princeton.edu/~otorres/Panel101.pdf)
-
+[notes on interpretting output](https://www.princeton.edu/~otorres/Panel101.pdf)
 
 <br>
 
-----
 Panel models are necessary when group structure (farms A, B and C in this example) is correlated both with the level of treatment (amount of fertilizer used each season) and the outcome (some farms are more efficient). 
 
 If it is the land causing the productivity difference and land quality varies by farm, omitting the group ID (farm fixed effect) in the model would not bias the result. But it would make the model a lot less efficient (larger standard errors).
@@ -175,7 +218,8 @@ Group-level variable is correlated with the outcome, but uncorrelated with the p
 
 Recall the [taxonomy of control variables](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf).
 
-Random effects are like Type A controls. Fixed effects are like Type B controls:
+* Random effects are like Type A controls  
+* Fixed effects are like Type B controls  
 
 ![](https://raw.githubusercontent.com/DS4PS/cpp-525-spr-2020/master/assets/img/taxonomy-of-controls2.png)
 
@@ -203,27 +247,83 @@ Random effects are like Type A controls. Fixed effects are like Type B controls:
 
 ## Week 4 - Instrumental Variables 
 
-* [LECTURE NOTES](https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-24-instrumental-variables.pdf)
-* [LECTURE CHAPTER](https://ds4ps.org/pe4ps-textbook/docs/p-050-instrumental-variables.html)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/instrumental-variables.html)
-<br>
+<hr>
 
-* [iv regression example](https://ds4ps.org/cpp-525-spr-2020/lectures/p-25-iv-example.html)
-* [overview of iv regression (video)](https://asu.zoom.us/rec/play/u5x-I7r9-Dw3GYLH4gSDB_5xW9TpK6qs0HQY-qIJmEazVHQBNwCvNLETM-KIqBwzOPr2gZymGDn8qDSn?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598)
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-050-instrumental-variables.html">LECTURE</a>
+
+[LECTURE NOTES](https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-24-instrumental-variables.pdf) 
+
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/instrumental-variables.html">LAB</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/u5x-I7r9-Dw3GYLH4gSDB_5xW9TpK6qs0HQY-qIJmEazVHQBNwCvNLETM-KIqBwzOPr2gZymGDn8qDSn?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
+
+[iv regression example](https://ds4ps.org/cpp-525-spr-2020/lectures/p-25-iv-example.html)
 
 
-**Due THURS July 30th** 
+**Due {{page.labs.lab-04}}**
 
 <a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
-<br>
-<br>
-
 <hr>
 
-<br>
-<br>
 
+**Example:**
+
+```r
+library( stargazer )
+
+URL <- "https://ds4ps.org/cpp-525-spr-2020/lectures/data/iv-reg-example.csv"
+dat <- read.csv( URL )
+
+# Full Model - Correct Slopes
+full.model <- lm( y ~ x1 + x2 + x3, data=dat )
+
+# Naive Model (biased slopes)
+naive.model <- lm( y ~ x1 + x2, data=dat  )
+
+# Instrumental Variable Correction to Naive Model
+first.stage <- lm( x1 ~ z + x2, data=dat )
+x1_hat <- fitted( first.stage )
+second.stage <- lm( y ~ x1_hat + x2, data=dat  )
+
+stargazer( full.model, naive.model, second.stage,
+           column.labels = c("Full Model","Naive Model","IV Model"),
+           type="text", 
+           omit.stat = c("rsq","ser","f","adj.rsq"), 
+           digits=2 )
+ 
+===================================================
+                      Dependent variable:          
+             --------------------------------------
+                               y                   
+             Full Model  Naive Model    IV Model   
+                (1)          (2)           (3)     
+---------------------------------------------------
+x1            -2.00***    -3.54***                 
+              (0.0001)     (0.03)                  
+                                                   
+x1_hat                                  -1.89***   
+                                         (0.24)    
+                                                   
+x2            23.00***    23.17***      24.31***   
+              (0.0003)     (0.22)        (0.91)    
+                                                   
+x3            14.00***                             
+              (0.001)                              
+                                                   
+Constant       -21.05   150,496.50*** 453,849.70***
+              (19.11)    (12,387.91)   (63,763.40) 
+                                                   
+---------------------------------------------------
+Observations   1,000        1,000         1,000    
+===================================================
+Note:                   *p<0.1; **p<0.05; ***p<0.01
+
+```
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -234,12 +334,16 @@ Random effects are like Type A controls. Fixed effects are like Type B controls:
 
 ## Week 5 - Regression Discontinuity Design 
 
-* [LECTURE](https://ds4ps.org/pe4ps-textbook/docs/p-060-reg-discontinuity.html)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/regression-discontinuity-lab.html)
+<hr>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-060-reg-discontinuity.html">LECTURE</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/regression-discontinuity-lab.html">LAB</a>
 
-**Due THURS Aug 6th**
+**Due {{page.labs.lab-05}}**
 
 <a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+
+<hr>
 
 <br>
 
@@ -258,30 +362,184 @@ Random effects are like Type A controls. Fixed effects are like Type B controls:
 
 
 
-## Week 6 
-
-### Logistic Regression 
-
-* [LECTURE](https://ds4ps.org/pe4ps-textbook/docs/p-070-logistic-regression.html)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/logit-lab.html)
-
-* [example script](examples/logistic-regression-example.R)  
-* [video](https://asu.zoom.us/rec/share/xfMlBJHy_E5IZ7fGsnvxB5UzGKTreaa8hiAWqfIPnhtzDDh-1wytiZ5OYSgLp0WQ)  
 
 
-### Propensity Score Matching 
 
-* [LECTURE](https://ds4ps.org/pe4ps-textbook/docs/p-080-matching.html)
-* [LAB](https://ds4ps.org/pe4ps-textbook/labs/matching-lab.html)
+## Week 6 - Logistic Regression 
 
-[video overview](https://asu.zoom.us/rec/share/4MpkE7Xr2VhOZdbI4mOFR7caHY_6eaa8gSdKq_cFn0ecqyECXG2G3ve0yarS9z00?startTime=1588373097000)
+<hr>
+
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-070-logistic-regression.html">LECTURE</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/logit-lab.html">LAB</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/share/xfMlBJHy_E5IZ7fGsnvxB5UzGKTreaa8hiAWqfIPnhtzDDh-1wytiZ5OYSgLp0WQ">VIDEO</a>
+
+[example script](examples/logistic-regression-example.R) 
+
+**Due {{page.labs.lab-06}}**
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+ 
+<hr>
+
+**Example:**
+
+```r
+# DATA
+URL <- "https://raw.githubusercontent.com/DS4PS/pe4ps-textbook/master/data/admissions.csv"
+dat <- read.csv( URL, stringsAsFactors=F )
+head( dat )
+#   Admission LSAT Essay  GPA
+# 1         1  160    55 2.78
+# 2         1  173    79 0.33
+# 3         0  149    38 1.86
+# 4         1  173    34 3.74
+# 5         0  130    52 2.99
+# 6         1  160    59 1.06
 
 
-**Both labs due TUES Aug 11th**
+#### LINEAR PROBABILITY MODEL 
+m1 <- lm( Admission ~ LSAT + Essay + GPA, data=dat )
+summary( m1 )
 
-<a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+# Marginal effects comparison:
+#
+# The standard deviation is a "reasonable" 
+# approximation of a big improvement.
+#
+# Which of these three things should I spend
+# time on to improve my likelihood of admissions? 
+
+sd.lsat <- sd( dat$LSAT )
+sd.essay <- sd( dat$Essay )
+sd.gpa <- sd( dat$GPA )
+
+b0 <- m1$coefficients[1]
+b1 <- m1$coefficients[2]
+b2 <- m1$coefficients[3]
+b3 <- m1$coefficients[4]
+
+sd.lsat * b1     # gains from improvement in LSAT
+sd.essay * b2    # gains from improvement in essay 
+sd.gpa * sd.gpa  # gains from improvement in gpa
+
+# predicted prob of success (admissions) for a specific individual:
+gpa <- 3.0
+lsat <- 145
+essay <- 90 
+b0 + b1*lsat + b2*essay + b3*gpa
 
 
+#### LOGIT MODEL
+m2 <- glm( Admission ~ LSAT + Essay + GPA, data = dat, family = "binomial" )
+summary( m2 )
+
+# logit link function: p is prob of success
+p <- 1 / ( 1 + exp( - ( b0 + b1*x1 + b2*x2 ) ) )
+
+# predicted prob of success (admissions) for a specific individual:
+b0 <- m2$coefficients[1]
+b1 <- m2$coefficients[2]
+b2 <- m2$coefficients[3]
+b3 <- m2$coefficients[4]
+
+gpa <- 3.0
+lsat <- 145
+essay <- 90 
+
+# model reports log-odds
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+
+# convert log-odds to probabilities
+1 / ( 1 + exp( - ( y.hat ) ) )
+
+# marginal effects comparison:
+# We must "center" other variables 
+# to look at marginal effects of one (LSAT here): 
+
+gpa <- mean( dat$GPA )  
+essay <- mean( dat$Essay ) 
+lsat <- 150
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+1 / ( 1 + exp( - ( y.hat ) ) )
+
+
+# Expected gains change greatly depending
+# on the baseline, eg LSAT of 130 vs 150 vs 170
+
+# value of 10-point increase in LSAT 
+# when current score is a 140
+
+gpa <- mean( dat$GPA )  
+essay <- mean( dat$Essay ) 
+
+lsat <- 140
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+p.140 <- 1 / ( 1 + exp( - ( y.hat ) ) )
+
+lsat <- 150
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+p.150 <- 1 / ( 1 + exp( - ( y.hat ) ) )
+
+p.150 - p.140 
+
+
+# value of 10-point increase in LSAT 
+# when current score is a 120
+
+lsat <- 120
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+p.120 <- 1 / ( 1 + exp( - ( y.hat ) ) )
+
+lsat <- 130
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+p.130 <- 1 / ( 1 + exp( - ( y.hat ) ) )
+
+p.130 - p.120 
+
+
+# value of 10-point increase in LSAT 
+# when current score is a 170
+
+lsat <- 170
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+p.170 <- 1 / ( 1 + exp( - ( y.hat ) ) )
+
+lsat <- 180
+y.hat <- b0 + b1*lsat + b2*essay + b3*gpa
+p.180 <- 1 / ( 1 + exp( - ( y.hat ) ) )
+
+p.180 - p.170 
+```
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+
+
+
+
+
+
+## Week 7 - Propensity Score Matching 
+
+<hr>
+
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-080-matching.html">LECTURE</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/matching-lab.html">LAB</a>
+<br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/share/4MpkE7Xr2VhOZdbI4mOFR7caHY_6eaa8gSdKq_cFn0ecqyECXG2G3ve0yarS9z00?startTime=1588373097000">VIDEO</a>
+
+**Due {{page.labs.lab-07}}**
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+
+<hr>
 
 
 
@@ -295,9 +553,6 @@ Random effects are like Type A controls. Fixed effects are like Type B controls:
 
 <br>
 <br>
-
------
-
 <br>
 <br>
 
@@ -311,5 +566,9 @@ Random effects are like Type A controls. Fixed effects are like Type B controls:
 <style>
 em {
     color: black;
+}
+  
+.uk-button-primary {
+    background-color: #f08d14;
 }
 </style>
