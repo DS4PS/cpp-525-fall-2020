@@ -318,8 +318,12 @@ Constant       -21.05   150,496.50*** 453,849.70***
 Observations   1,000        1,000         1,000    
 ===================================================
 Note:                   *p<0.1; **p<0.05; ***p<0.01
-
 ```
+
+* *Slope for x1 is correct in model 1*  
+* *Slope for x1 is biased in model 2*  
+* *Slope for x1_hat in the IV model 3 has most of the biased removed*  
+
 <br>
 <br>
 <br>
