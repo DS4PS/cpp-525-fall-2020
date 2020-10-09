@@ -42,10 +42,45 @@ Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assig
 
 
 
+## Review - Counterfactual Analysis
+
+This course combines concepts from CPP 523 (Regression Analysis) and CPP 524 (Research Design) by demonstrating ways in which counterfactual reasoning can be built into regression models in order to overcome the selection and omitted variable bias problems that make it near impossible to use regular regression models to estimate program impact. 
+
+Instead of running a basic regression with controls, the models you learn this semester use new specifications and some clevel quasi-experimental design tricks in order to create build reasonable counterfactuals into the models. When deployed properly, the resulting estimates of program impact get much closer to what a Randomized Control Trial would produce. 
+
+The *when deployed properly* part of that statement is an important caveat - each model will be sensitive to different assumptions. We know this through a growing literature on studies that use experimental data produced by Randomized Control Trials, then re-estimate program impact with the same treatment group and a new observational control group using quasi-experimental approaches. In many contexts the quasi-experimental models produce results very close to those generated through the RCTs. 
+
+St. Clair, T., Cook, T. D., & Hallberg, K. (2014). Examining the internal validity and statistical precision of the comparative interrupted time series design by comparison with a randomized experiment. American Journal of Evaluation, 35(3), 311-327.
+
+Ferraro, P. J., & Miranda, J. J. (2017). Panel data designs and estimators as substitutes for randomized controlled trials in the evaluation of public programs. Journal of the Association of Environmental and Resource Economists, 4(1), 281-317.
+
+These regression techniques represent the toolkit for causal reasoning for most evaluators. Each model will leverage of the the three counterfactual estimators discussed in CPP 524. You might find it useful to review the Varieties of the Counterfactual before beginning these labs and pay close attention to which estimator each model most resembles (reflexive, post-test only, or post-test with comparison). What are the assumptions necessary for each estimator to be valid? 
+
+* [**Introduction to Counterfactuals**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)  
+* [**Varieties of the Counterfactual**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)  
+* [**Testing the Counterfactual Validity**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf)  
+
+**Reference:**
+
+Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank. [[pdf](https://openknowledge.worldbank.org/bitstream/handle/10986/25030/9781464807794.pdf?sequence=2&isAllowed=y)]
+* CH3 Causal Inference and Counterfactuals  
+* CH5 Regression Discontinuity Design    
+* CH6 Difference in Difference Models    
+* CH7 Matching    
+
+Cook, T. D., Scriven, M., Coryn, C. L., & Evergreen, S. D. (2010). Contemporary thinking about causation in evaluation: A dialogue with Tom Cook and Michael Scriven. American Journal of Evaluation, 31(1), 105-117. [ [LINK](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/conversation-with-tom-cook-and-michael-scriven.pdf) ]
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+
+
 
 
 ## Week 1 - Interrupted Time Series 
-
 
 <hr>
 
