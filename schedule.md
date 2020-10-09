@@ -83,7 +83,8 @@ Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. 
 
 <br>
 <br>
-<hr>
+<br>
+<br>
 <br>
 <br>
 
@@ -136,7 +137,8 @@ Y = b0 + (b1)(T) + (b2)(D) + (b3)(P) + e
 
 <br>
 <br>
-<hr>
+<br>
+<br>
 <br>
 <br>
 
@@ -176,7 +178,8 @@ Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing difference in differ
 
 <br>
 <br>
-<hr>
+<br>
+<br>
 <br>
 <br>
 
@@ -277,9 +280,8 @@ Recall the [taxonomy of control variables](https://github.com/DS4PS/cpp-523-spr-
 
 <br>
 <br>
-
-<hr>
-
+<br>
+<br>
 <br>
 <br>
 
@@ -374,7 +376,8 @@ Note:                   *p<0.1; **p<0.05; ***p<0.01
 <br>
 <br>
 <br>
-
+<br>
+<br>
 
 
 
@@ -402,11 +405,12 @@ Note:                   *p<0.1; **p<0.05; ***p<0.01
 <br>
 
 ![](assets/img/reg-discontinuity.png)
+
 <br>
 <br>
-
-----
-
+<br>
+<br>
+<br>
 <br>
 
 
@@ -565,7 +569,8 @@ p.180 - p.170
 
 <br>
 <br>
-<hr>
+<br>
+<br>
 <br>
 <br>
 
