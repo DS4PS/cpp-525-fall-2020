@@ -203,7 +203,7 @@ Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing difference in differ
 
 **Due {{page.labs.lab-03}}**
 
-<a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <hr>
 
@@ -310,7 +310,7 @@ Recall the [taxonomy of control variables](https://github.com/DS4PS/cpp-523-spr-
 
 **Due {{page.labs.lab-04}}**
 
-<a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <hr>
 
@@ -394,7 +394,7 @@ Note:                   *p<0.1; **p<0.05; ***p<0.01
 
 **Due {{page.labs.lab-05}}**
 
-<a class="uk-button uk-button-default" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <hr>
 
