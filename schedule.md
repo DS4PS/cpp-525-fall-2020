@@ -156,11 +156,13 @@ Y = b0 + (b1)(T) + (b2)(D) + (b3)(P) + e
 <br><br>
 <a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/tMIrd7yvqDo3TNfD4gSDV_V5W425e_6s2yBNrqBcxUixASFRY1GmN7VDNuqKJy2LLzjKb6H4yI5HWMZw?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
 
+---
+
 **Due {{page.labs.lab-02}}**
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
-<hr>
+---
 
 **Review:** 
 
@@ -201,11 +203,13 @@ Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing difference in differ
 <a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/vZQrcbj9qTo3T9aSuQSDC6dxW9S7Kais0SVP-qUKykm9B3QGMFahYeMVZLENnE0QqLfC7HHfx_JInrRR?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
 
 
+---
+
 **Due {{page.labs.lab-03}}**
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
-<hr>
+---
 
 **Reference:**
 
@@ -299,20 +303,23 @@ Recall the [taxonomy of control variables](https://github.com/DS4PS/cpp-523-spr-
 
 <a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-050-instrumental-variables.html">LECTURE</a>
 
-[LECTURE NOTES](https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-24-instrumental-variables.pdf) 
+<a class="uk-button uk-button-default" style="width:130px" href="https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-24-instrumental-variables.pdf">LECTURE NOTES</a>
 
 <a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/instrumental-variables.html">LAB</a>
+
 <br><br>
+
 <a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/u5x-I7r9-Dw3GYLH4gSDB_5xW9TpK6qs0HQY-qIJmEazVHQBNwCvNLETM-KIqBwzOPr2gZymGDn8qDSn?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
 
-[iv regression example](https://ds4ps.org/cpp-525-spr-2020/lectures/p-25-iv-example.html)
+<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/cpp-525-spr-2020/lectures/p-25-iv-example.html">iv regression example</a>
 
+---
 
 **Due {{page.labs.lab-04}}**
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
-<hr>
+---
 
 
 **Example:**
@@ -424,18 +431,21 @@ Note:                   *p<0.1; **p<0.05; ***p<0.01
 <hr>
 
 <a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-070-logistic-regression.html">LECTURE</a>
-<br><br>
+
 <a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/logit-lab.html">LAB</a>
-<br><br>
+
 <a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/share/xfMlBJHy_E5IZ7fGsnvxB5UzGKTreaa8hiAWqfIPnhtzDDh-1wytiZ5OYSgLp0WQ">VIDEO</a>
 
 [example script](examples/logistic-regression-example.R) 
+
+---
 
 **Due {{page.labs.lab-06}}**
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
  
-<hr>
+---
+
 
 **Example:**
 
@@ -590,11 +600,13 @@ p.180 - p.170
 <br><br>
 <a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/share/4MpkE7Xr2VhOZdbI4mOFR7caHY_6eaa8gSdKq_cFn0ecqyECXG2G3ve0yarS9z00?startTime=1588373097000">VIDEO</a>
 
+---
+
 **Due {{page.labs.lab-07}}**
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
-<hr>
+---
 
 
 
