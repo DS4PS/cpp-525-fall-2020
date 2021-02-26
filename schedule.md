@@ -301,17 +301,17 @@ Recall the [taxonomy of control variables](https://github.com/DS4PS/cpp-523-spr-
 
 <hr>
 
-<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-050-instrumental-variables.html">LECTURE</a>
+<a class="uk-button uk-button-default" style="width:200px" href="https://ds4ps.org/pe4ps-textbook/docs/p-050-instrumental-variables.html">LECTURE</a>
 
-<a class="uk-button uk-button-default" style="width:130px" href="https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-24-instrumental-variables.pdf">LECTURE NOTES</a>
+<a class="uk-button uk-button-default" style="width:200px" href="https://github.com/DS4PS/cpp-525-spr-2020/raw/master/lectures/p-24-instrumental-variables.pdf">LECTURE NOTES</a>
 
-<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/instrumental-variables.html">LAB</a>
+<a class="uk-button uk-button-default" style="width:200px" href="https://ds4ps.org/pe4ps-textbook/labs/instrumental-variables.html">LAB</a>
 
 <br><br>
 
-<a class="uk-button uk-button-default" style="width:130px" href="https://asu.zoom.us/rec/play/u5x-I7r9-Dw3GYLH4gSDB_5xW9TpK6qs0HQY-qIJmEazVHQBNwCvNLETM-KIqBwzOPr2gZymGDn8qDSn?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
+<a class="uk-button uk-button-default" style="width:200px" href="https://asu.zoom.us/rec/play/u5x-I7r9-Dw3GYLH4gSDB_5xW9TpK6qs0HQY-qIJmEazVHQBNwCvNLETM-KIqBwzOPr2gZymGDn8qDSn?continueMode=true&_x_zm_rtaid=a3eEFLG8Qtiy1qBhz5Gnyg.1586645508130.02d1fbabc21b564365fde85fb34937b4&_x_zm_rhtaid=598">VIDEO</a>
 
-<a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/cpp-525-spr-2020/lectures/p-25-iv-example.html">iv regression example</a>
+<a class="uk-button uk-button-default" style="width:200px" href="https://ds4ps.org/cpp-525-spr-2020/lectures/p-25-iv-example.html">iv regression example</a>
 
 ---
 
