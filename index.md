@@ -14,7 +14,7 @@ info:
  course_number: CPP 525 
  course_level: Graduate 
  course_website: 'https://canvas.asu.edu/courses/70102'
- course_start_end_dates: October 12 to December 14, 2020 
+ course_start_end_dates: March 8 to April 23, 2021 
  course_prerequisites: CPP 523 and CPP 526
  class_meets_when:  Asynchronous  
  class_meets_where:  ''
@@ -181,7 +181,7 @@ Letter grades comport with a traditional set of intervals:
 
 The assigned work for the term comes in the form of four elements, described below:
 
-- **Weekly Labs (100%):**  Each week you will be given lecture notes and a lab covering a new regression model. The labs require a substantial amount of work preparing the raw data for analysis, running models, and interpretting results. Your grade is derived from performance on these seven labs. You are allowed to drop one lab over the semester, making labs worth 15 points each. 
+- **Weekly Labs (100%):**  Each week you will be given lecture notes and a lab covering a new regression model. The labs require a substantial amount of work preparing the raw data for analysis, running models, and interpretting results. Your grade is derived from performance on these seven labs. You are allowed one round of corrections for each lab, due at the same time as the lab for the next week.
 
 
 ## D. General Grading Rubric for Written Work
@@ -198,7 +198,7 @@ The final project will be accompanied by a rubric describing the allocation of p
 
 ## E. Late and Missing Assignments
 
-Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Once solutions are posted it is no longer possible to receive points for assignments. 
+Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Labs must completed by the due date in order to recieve credit.
 
 ## F.  Course Communications and Instructor Feedback:
 
