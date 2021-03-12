@@ -6,13 +6,13 @@ canvas:
   assignment_url: 'https://asu.instructure.com/courses/70102/assignments'
   
 labs:
-  lab-01:  'Monday, October 19th' 
-  lab-02:  'Monday, October 26th'
-  lab-03:  'Monday, November 2nd'
-  lab-04:  'Monday, November 9th'
-  lab-05:  'Monday, November 16th'
-  lab-06:  'Monday, November 23rd'
-  lab-07:  'Monday, November 30th' 
+  lab-01:  'Monday, March 15th' 
+  lab-02:  'Monday, March 22nd'
+  lab-03:  'Monday, March 29th'
+  lab-04:  'Monday, April 5th'
+  lab-05:  'Monday, April 12th'
+  lab-06:  'Monday, April 19th'
+  lab-07:  'Monday, April 26th' 
   
 ---
 
