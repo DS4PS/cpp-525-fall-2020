@@ -14,7 +14,7 @@ info:
  course_number: CPP 525 
  course_level: Graduate 
  course_website: 'https://canvas.asu.edu/courses/70102'
- course_start_end_dates: March 8 to April 23, 2021 
+ course_start_end_dates: June 30th to August 10th, 2021 
  course_prerequisites: CPP 523 and CPP 526
  class_meets_when:  Asynchronous  
  class_meets_where:  ''
@@ -34,7 +34,6 @@ instructor:
    linked_in_url: 'https://www.linkedin.com/in/david-selby-64699a46/'
    office_hours_time: By appointment
    office_hours_location:  Zoom
-   office_hours_app_url:  'https://calendly.com/jdselby/30min'
    
 
 textbooks:
@@ -181,7 +180,7 @@ Letter grades comport with a traditional set of intervals:
 
 The assigned work for the term comes in the form of four elements, described below:
 
-- **Weekly Labs (100%):**  Each week you will be given lecture notes and a lab covering a new regression model. The labs require a substantial amount of work preparing the raw data for analysis, running models, and interpretting results. Your grade is derived from performance on these seven labs. You are allowed one round of corrections for each lab, due at the same time as the lab for the next week.
+- **Weekly Labs (100%):**  Each week you will be given lecture notes and a lab covering a new regression model. The labs require a substantial amount of work preparing the raw data for analysis, running models, and interpretting results. Your grade is derived from performance on these six labs. You are allowed one round of corrections for each lab, due at the same time as the lab for the next week.
 
 
 ## D. General Grading Rubric for Written Work
