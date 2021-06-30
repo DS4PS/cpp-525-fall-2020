@@ -6,13 +6,13 @@ canvas:
   assignment_url: 'https://asu.instructure.com/courses/70102/assignments'
   
 labs:
-  lab-01:  'Monday, March 15th' 
-  lab-02:  'Monday, March 22nd'
-  lab-03:  'Monday, March 29th'
-  lab-04:  'Monday, April 5th'
-  lab-05:  'Monday, April 12th'
-  lab-06:  'Monday, April 19th'
-  lab-07:  'Monday, April 26th' 
+  lab-01:  'Monday, July 5th' 
+  lab-02:  'Monday, July 12th'
+  lab-03:  'Monday, July 19th'
+  lab-04:  'Monday, July 26th'
+  lab-05:  'Monday, August 2nd'
+  lab-06:  'Monday, August 9th'
+  lab-07:  'Monday, August 9th'
   
 ---
 
@@ -590,7 +590,7 @@ p.180 - p.170
 
 
 
-## Week 7 - Propensity Score Matching 
+## Week 7 - Propensity Score Matching (BONUS)
 
 <hr>
 
