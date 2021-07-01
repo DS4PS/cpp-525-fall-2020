@@ -3,7 +3,7 @@ layout: default
 title: Schedule
 
 canvas: 
-  assignment_url: 'https://asu.instructure.com/courses/70102/assignments'
+  assignment_url: 'https://asu.instructure.com/courses/88303/assignments'
   
 labs:
   lab-01:  'Monday, July 5th' 
