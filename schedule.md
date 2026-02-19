@@ -98,6 +98,8 @@ Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. 
 
 <a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/docs/p-020-time-series.html">LECTURE</a>
 <br><br>
+<a class="uk-button uk-button-default" style="width:130px" href="https://github.com/DS4PS/cpp-525-fall-2020/blob/master/lectures/p-21-interrupted-time-series-specification.pdf">SLIDES</a>
+<br><br>
 <a class="uk-button uk-button-default" style="width:130px" href="https://ds4ps.org/pe4ps-textbook/labs/time-series-lab.html">LAB</a>
 
 **Due {{page.labs.lab-01}}**
